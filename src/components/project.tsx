@@ -136,7 +136,7 @@ export default function ProjectsSection() {
                                                     nonColor
                                                     reverse
                                                     className="md:w-auto w-full"
-                                                    contentClassName="xl:text-base md:text-sm text-[11px] md:w-auto w-full"
+                                                    contentClassName="xl:text-base text-sm md:w-auto w-full"
                                                 />
                                             </div>
                                         </div>
