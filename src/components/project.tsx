@@ -127,7 +127,7 @@ export default function ProjectsSection() {
                                                     text={"Live Demo"}
                                                     icon={<FaArrowUpRightFromSquare />}
                                                     className="md:w-auto w-full"
-                                                    contentClassName="xl:text-base md:text-sm text-xs md:w-auto w-full"
+                                                    contentClassName="xl:text-base md:text-sm text-[11px] md:w-auto w-full"
                                                 />
                                                 <Button
                                                     href={project.github}
@@ -136,7 +136,7 @@ export default function ProjectsSection() {
                                                     nonColor
                                                     reverse
                                                     className="md:w-auto w-full"
-                                                    contentClassName="xl:text-base md:text-sm text-xs md:w-auto w-full"
+                                                    contentClassName="xl:text-base md:text-sm text-[11px] md:w-auto w-full"
                                                 />
                                             </div>
                                         </div>
