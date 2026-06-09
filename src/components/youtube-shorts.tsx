@@ -79,14 +79,14 @@ export default function YoutubeShorts() {
             >
                 <div className="mx-auto max-w-7xl px-6">
                     {/* Badge */}
-                    <div className="flex justify-center">
+                    <div className="flex md:justify-center justify-start">
                         <span className="mb-4 inline-block rounded-full border border-indigo-500/20 bg-indigo-500/10 px-4 py-2 lg:text-base md:text-sm text-xs merriweather-regular text-indigo-500">
                             Social Presence
                         </span>
                     </div>
 
                     {/* Heading */}
-                    <div className="mt-3 text-center">
+                    <div className="mt-3 md:text-center text-left">
                         <h2 className="xl:text-5xl md:text-4xl text-3xl merriweather-bold">
                             Building in Public
                         </h2>
