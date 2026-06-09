@@ -28,7 +28,7 @@ export default function Button({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", duration: 0.3 }}
-            className={`${reverse ? "flex-row-reverse" : ""} flex flex-row md:py-2 py-1 md:px-4 px-2.5 md:gap-2 gap-1.5 rounded-xl ${nonColor ? "text-[#F2F3FF] border-2 border-gray-400 hover:bg-gray-700 hover:border-indigo-500" : "text-[#F2F3FF] bg-indigo-500 hover:bg-[#F2F3FF] hover:text-[#121212]"} justify-center items-center text-center cursor-pointer w-fit merriweather-medium transition-all duration-300 ease-in-out uppercase ${contentClassName}`}
+            className={`${reverse ? "flex-row-reverse" : ""} flex flex-row md:py-2 py-1.5 md:px-4 px-2.5 md:gap-2 gap-1.5 rounded-xl ${nonColor ? "text-[#F2F3FF] border-2 border-gray-400 hover:bg-gray-700 hover:border-indigo-500" : "text-[#F2F3FF] bg-indigo-500 hover:bg-[#F2F3FF] hover:text-[#121212]"} justify-center items-center text-center cursor-pointer w-fit merriweather-medium transition-all duration-300 ease-in-out uppercase ${contentClassName}`}
         >
             {text && <span>{text}</span>}
             {icon && <span>{icon}</span>}
