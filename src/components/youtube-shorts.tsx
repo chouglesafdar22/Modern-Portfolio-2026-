@@ -41,18 +41,18 @@ export default function YoutubeShorts() {
                     className="bg-[#1a1a1a] py-20 text-[#F2F3FF]"
                 >
                     <div className="mx-auto max-w-7xl px-6">
-                        <div className="flex justify-center">
-                            <span className="rounded-full border border-indigo-500/30 px-4 py-2 text-sm text-indigo-500">
+                        <div className="flex md:justify-center justify-start">
+                            <span className="mb-4 inline-block rounded-full border border-indigo-500/20 bg-indigo-500/10 px-4 py-2 lg:text-sm md:text-xs text-[10px] merriweather-regular text-indigo-500">
                                 Social Presence
                             </span>
                         </div>
 
-                        <div className="mt-6 text-center">
-                            <h2 className="text-4xl font-bold md:text-6xl">
+                        <div className="mt-3 md:text-center text-left">
+                            <h2 className="text-3xl md:text-4xl xl:text-5xl merriweather-bold">
                                 Building in Public
                             </h2>
 
-                            <p className="mt-4 text-[#F2F3FF]/70">
+                            <p className="mt-2 xl:text-lg md:text-base text-sm text-[#F2F3FF]/70 wrap-break-word merriweather-medium">
                                 Sharing my journey as a Full-Stack MERN Developer.
                             </p>
                         </div>
@@ -86,14 +86,13 @@ export default function YoutubeShorts() {
                     </div>
 
                     {/* Heading */}
-                    <div className="mt-6 text-center">
-                        <h2 className="lg:text-5xl md:text-4xl text-3xl merriweather-bold">
+                    <div className="mt-3 text-center">
+                        <h2 className="xl:text-5xl md:text-4xl text-3xl merriweather-bold">
                             Building in Public
                         </h2>
 
-                        <p className="mx-auto mt-4 text-base md:text-lg xl:text-xl merriweather-regular max-w-3xl text-[#F2F3FF]/70">
-                            Sharing my journey, projects, and lessons as a
-                            Full-Stack MERN Developer.
+                        <p className="mx-auto mt-2 text-base md:text-lg xl:text-xl merriweather-regular max-w-3xl text-[#F2F3FF]/70">
+                            Sharing my journey, projects, and lessons as a Full-Stack MERN Developer.
                         </p>
                     </div>
 

@@ -27,7 +27,7 @@ export default function HeroSection() {
         />
 
         <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+          <div className="grid gap-12 md:grid-cols-[1.2fr_0.8fr] lg:items-center">
             {/* Left Content */}
             <motion.div
               initial={{ opacity: 0, y: 40 }}
