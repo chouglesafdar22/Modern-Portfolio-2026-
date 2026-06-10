@@ -33,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
       <head>
+        <meta name="google-site-verification" content="eImYShPfw7ql04GtBt9DpManV5qBTv3aU9n2r2kf5Ws" />
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet"></link>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} scroll-smooth antialiased`}>
