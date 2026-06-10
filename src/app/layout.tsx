@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://safdarchougle.vercel.app"),
   title: "Safdar Chougle | Full-Stack MERN Developer",
   description: "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences with React, Next.js, TypeScript, Node.js, Express.js, and MongoDB.",
   keywords: [
