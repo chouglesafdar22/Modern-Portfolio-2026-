@@ -18,6 +18,57 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Safdar Chougle | Full-Stack MERN Developer",
   description: "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences with React, Next.js, TypeScript, Node.js, Express.js, and MongoDB.",
+  keywords: [
+    "Safdar Chougle",
+    "Safdar Chougle Portfolio",
+    "Full Stack Developer",
+    "Full Stack MERN Developer",
+    "MERN Stack Developer",
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Node.js Developer",
+    "MongoDB Developer",
+    "Web Developer",
+    "Software Developer",
+    "Portfolio Website",
+    "Developer Portfolio",
+    "Indian Full Stack Developer",
+    "Indian MERN Developer",
+    "Indian Web Developer",
+    "Maharashtra Full Stack Developer",
+    "Maharashtra Full Stack Developer",
+    "MERN Developer India",
+    "React Next.js Developer",
+    "Freelance Web Developer",
+  ],
+  authors: [
+    {
+      name: "Safdar Chougle"
+    }
+  ],
+  creator: "Safdar Chougle",
+  openGraph: {
+    title: "Safdar Chougle | Full-Stack MERN Developer",
+    description:
+      "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences.",
+    url: "https://safdarchougle.vercel.app",
+    siteName: "Safdar Chougle Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Safdar Chougle | Full-Stack MERN Developer",
+    description:
+      "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -40,7 +91,7 @@ export default function RootLayout({
         <ScrollProgress />
         <CustomCursor />
         {children}
-        <Analytics/>
+        <Analytics />
       </body>
     </html>
   );
