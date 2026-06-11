@@ -22,7 +22,7 @@ const projects = [
         image: "/Images/Projects/portfolio_web.png",
         technologies: ["Next.js", "Tailwind CSS", "TypeScript", "React.js", "Node.js (via Next.js API routes)", "Framer Motion"],
         live: "#",
-        github: "#",
+        github: "https://github.com/chouglesafdar22/Modern-Portfolio-2026-",
     },
     {
         id: 3,
