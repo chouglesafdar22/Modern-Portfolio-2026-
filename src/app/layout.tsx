@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://safdarchougle.vercel.app"),
-  title: "Safdar Chougle | Full-Stack MERN Developer",
+  title: "Safdar Chougle | Full-Stack Developer",
   description: "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences with React, Next.js, TypeScript, Node.js, Express.js, and MongoDB.",
   keywords: [
     "Safdar Chougle",
@@ -44,6 +44,10 @@ export const metadata: Metadata = {
     "MERN Developer India",
     "React Next.js Developer",
     "Freelance Web Developer",
+    "Indian Best Developer",
+    "Saas",
+    "Businesses",
+    "Startups"
   ],
   authors: [
     {
@@ -52,9 +56,9 @@ export const metadata: Metadata = {
   ],
   creator: "Safdar Chougle",
   openGraph: {
-    title: "Safdar Chougle | Full-Stack MERN Developer",
+    title: "Safdar Chougle | Full-Stack Developer",
     description:
-      "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences.",
+      "I help startups and businesses build modern websites, mobile apps, and scalable SaaS products that solve real business problems and deliver exceptional user experiences.",
     url: "https://safdarchougle.vercel.app",
     siteName: "Safdar Chougle Portfolio",
     locale: "en_US",
@@ -62,9 +66,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Safdar Chougle | Full-Stack MERN Developer",
+    title: "Safdar Chougle | Full-Stack Developer",
     description:
-      "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences.",
+      "I help startups and businesses build modern websites, mobile apps, and scalable SaaS products that solve real business problems and deliver exceptional user experiences.",
   },
   robots: {
     index: true,

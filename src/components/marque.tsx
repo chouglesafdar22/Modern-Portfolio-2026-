@@ -6,11 +6,13 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { DiNodejs } from "react-icons/di";
 import { SiExpress, SiMongodb, SiTailwindcss, SiFramer, SiPostman } from "react-icons/si";
 import { IoLogoGithub, IoLogoVercel } from "react-icons/io5";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const skills = [
     { name: "React.js", icon: <FaReact /> },
     { name: "Next.js", icon: <RiNextjsFill /> },
     { name: "TypeScript", icon: <BiLogoTypescript /> },
+    { name: "React Native", icon: <TbBrandReactNative /> },
     { name: "Node.js", icon: <DiNodejs /> },
     { name: "Express.js", icon: <SiExpress /> },
     { name: "MongoDB", icon: <SiMongodb /> },
@@ -25,7 +27,9 @@ const skills = [
 
 const roles = [
     { name: "Full-Stack Developer" },
+    { name: "Moblie App Developer" },
     { name: "MERN Stack Developer" },
+    { name: "React Native Developer" },
     { name: "React.js Developer" },
     { name: "Next.js Developer" },
     { name: "UI Developer" },

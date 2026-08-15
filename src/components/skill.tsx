@@ -17,6 +17,7 @@ import {
 } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import ScrollWrapper from "./ScrollWrapper";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const skillCategories = [
     {
@@ -33,6 +34,10 @@ const skillCategories = [
             {
                 name: "TypeScript",
                 icon: <SiTypescript />,
+            },
+            {
+                name: "React Native",
+                icon: <TbBrandReactNative />
             },
             {
                 name: "Tailwind CSS",

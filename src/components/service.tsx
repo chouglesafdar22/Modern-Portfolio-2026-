@@ -2,7 +2,7 @@
 import {
     RiCodeSSlashLine,
     RiLayout4Line,
-    RiDatabase2Line,
+    RiSmartphoneLine,
     RiGlobalLine,
 } from "react-icons/ri";
 import { Button2 } from "./Button";
@@ -11,24 +11,28 @@ import ScrollWrapper from "./ScrollWrapper";
 
 const services = [
     {
-        title: "Full-Stack Web Development",
-        description: "Designing and developing end-to-end web applications with React, Next.js, Node.js, Express.js, and MongoDB,",
-        icon: <RiCodeSSlashLine />,
+        title: "Websites & Business Platforms",
+        description:
+            "Designing and developing modern websites, landing pages, and business platforms that are fast, responsive, and built to grow with your business.",
+        icon: <RiGlobalLine />,
     },
     {
-        title: "Frontend Development",
-        description: "Building responsive, accessible, and high-performance user interfaces with React, Next.js, TypeScript, and Tailwind CSS.",
+        title: "Custom Web Applications",
+        description:
+            "Building custom web applications, dashboards, booking systems, and internal tools tailored to your business workflows and operational needs.",
         icon: <RiLayout4Line />,
     },
     {
-        title: "Backend Development",
-        description: "Developing scalable APIs, authentication systems, database architectures, and server-side business logic.",
-        icon: <RiDatabase2Line />,
+        title: "SaaS Product Development",
+        description:
+            "Helping startups build scalable SaaS products, MVPs, customer portals, authentication systems, APIs, and cloud-ready application architectures.",
+        icon: <RiCodeSSlashLine />,
     },
     {
-        title: "Portfolio & Business Websites",
-        description: "Creating professional portfolio, landing page, and business websites designed to strengthen online presence and drive growth.",
-        icon: <RiGlobalLine />,
+        title: "Mobile App Development",
+        description:
+            "Developing cross-platform mobile applications with modern technologies, seamless user experiences, and scalable backend integrations.",
+        icon: <RiSmartphoneLine />,
     },
 ];
 
@@ -59,7 +63,7 @@ export default function ServicesSection() {
                     </div>
 
                     {/* Cards */}
-                    <div className="grid gap-6 md:grid-cols-2">
+                    <div className="grid gap-8 md:grid-cols-2">
                         {services.map((service) => (
                             <div
                                 key={service.title}

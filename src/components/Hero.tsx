@@ -50,7 +50,7 @@ export default function HeroSection() {
               </div>
 
               <p className="mt-4 wrap-break-word text-base md:text-lg lg:text-xl text-[#F2F3FF]/70 merriweather-medium">
-                Full-Stack MERN Developer crafting modern, scalable, and user-centric web applications that deliver seamless digital experiences with React, Next.js, Node.js, Express.js, MongoDB and Tailwind CSS.
+                Full-Stack Developer helping startups and businesses build modern websites, mobile apps, and scalable SaaS products that solve real business problems and deliver exceptional user experiences.
               </p>
 
               <span className="mt-4 inline-block rounded-full bg-indigo-500/20 px-4 py-1 text-sm text-white merriweather-regular">

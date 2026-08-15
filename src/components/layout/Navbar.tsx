@@ -20,7 +20,7 @@ export default function Navbar() {
                 href="https://calendly.com/chouglesafdar22/30min"
                 icon={<SiCalendly />}
                 reverse
-                contentClassName="xl:text-base md:text-sm text-xs"
+                contentClassName="xl:text-base md:text-sm text-xs md:py-2.5 py-2 md:px-4 px-2.5"
             />
         </nav>
     );
