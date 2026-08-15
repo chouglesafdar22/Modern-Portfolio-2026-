@@ -18,11 +18,11 @@ export default function AboutSection() {
                             </span>
 
                             <h2 className="lg:text-5xl md:text-4xl text-3xl merriweather-bold leading-tight">
-                                Building modern
+                                Building
                                 <br />
-                                <span className="text-indigo-500"> web applications</span>
+                                <span className="text-indigo-500">websites, mobile apps & SaaS products</span>
                                 <br />
-                                with clean code.
+                                for startups and businesses.
                             </h2>
 
                             <p className="mt-4 lg:text-xl md:text-lg wrap-break-word text-base merriweather-medium leading-relaxed text-[#F2F3FF]/70">
