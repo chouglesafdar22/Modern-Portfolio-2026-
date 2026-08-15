@@ -12,7 +12,7 @@ const projects = [
         description: "A complete production-ready portfolio builder that allows developers to create, customize, and publish professional portfolio websites instantly — without writing code. Built with modern full-stack technologies, GitPortify focuses on performance, usability, and real-world application.",
         image: "/Images/Projects/gitportify.png",
         technologies: ["Next.js", "React + TypeScript", "Tailwind CSS", "ShadCN UI", "Node.js (via Next.js API routes)", "MongoDB", "NextAuth (GitHub OAuth)", "Framer Motion", "Vercel"],
-        live: "gitportify.vercel.app/",
+        live: "https://gitportify.vercel.app",
         github: "https://github.com/chouglesafdar22/GitPortify",
     },
     {
@@ -21,7 +21,7 @@ const projects = [
         description: "A modern, responsive, and performance-focused portfolio website built to showcase my projects, technical skills, services, and development journey as a Full-Stack MERN Developer.",
         image: "/Images/Projects/portfolio_web.png",
         technologies: ["Next.js", "Tailwind CSS", "TypeScript", "React.js", "Node.js (via Next.js API routes)", "Framer Motion"],
-        live: "#",
+        live: "https://safdarchougle.vercel.app",
         github: "https://github.com/chouglesafdar22/Modern-Portfolio-2026-",
     },
     {
@@ -55,7 +55,7 @@ export default function ProjectsSection() {
                         </h2>
 
                         <p className="mt-2 xl:text-lg md:text-base text-sm text-[#F2F3FF]/70 wrap-break-word merriweather-medium">
-                            A collection of projects showcasing my full-stack mern web development skills.
+                            A collection of projects showcasing my full-stack development skills.
                         </p>
                     </div>
                     {/* Sticky Cards */}
