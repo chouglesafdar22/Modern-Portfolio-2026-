@@ -48,7 +48,7 @@ export default function Footer() {
                         </h3>
 
                         <p className="mt-2.5 text-lg md:text-xl xl:text-2xl merriweather-medium text-[#F2F3FF]/70">
-                            Full-Stack MERN Developer
+                            Full-Stack Developer
                         </p>
                     </div>
 

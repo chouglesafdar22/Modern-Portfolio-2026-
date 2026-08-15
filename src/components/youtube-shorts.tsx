@@ -92,7 +92,7 @@ export default function YoutubeShorts() {
                         </h2>
 
                         <p className="mx-auto mt-2 text-base md:text-lg xl:text-xl merriweather-regular max-w-3xl text-[#F2F3FF]/70">
-                            Sharing my journey, projects, and lessons as a Full-Stack MERN Developer.
+                            Sharing my journey, projects, and lessons as a Full-Stack Developer.
                         </p>
                     </div>
 
