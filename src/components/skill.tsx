@@ -90,6 +90,10 @@ const skillCategories = [
             {
                 name: "Figma",
                 icon: <FaFigma />
+            },
+            {
+                name: "Framer",
+                icon: <SiFramer />
             }
         ],
     },
