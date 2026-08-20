@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://safdarchougle.vercel.app"),
   title: "Safdar Chougle | Full-Stack Developer",
-  description: "Explore the portfolio of Safdar Chougle, a Full-Stack MERN Developer building modern, scalable, and user-focused digital experiences with React, Next.js, TypeScript, Node.js, Express.js, and MongoDB.",
+  description: "Explore the portfolio of Safdar Chougle, a Full-Stack Developer helping startups and businesses build modern digital products, including websites, web applications, mobile apps, SaaS platforms, and AI-powered solutions.",
   keywords: [
     "Safdar Chougle",
     "Safdar Chougle Portfolio",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Safdar Chougle | Full-Stack Developer",
     description:
-      "I help startups and businesses build modern websites, mobile apps, and scalable SaaS products that solve real business problems and deliver exceptional user experiences.",
+      "I help startups and businesses build modern digital products, including websites, web applications, mobile apps, SaaS platforms, and AI-powered solutions.",
     url: "https://safdarchougle.vercel.app",
     siteName: "Safdar Chougle Portfolio",
     locale: "en_US",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Safdar Chougle | Full-Stack Developer",
     description:
-      "I help startups and businesses build modern websites, mobile apps, and scalable SaaS products that solve real business problems and deliver exceptional user experiences.",
+      "I help startups and businesses build modern digital products, including websites, web applications, mobile apps, SaaS platforms, and AI-powered solutions.",
   },
   robots: {
     index: true,
