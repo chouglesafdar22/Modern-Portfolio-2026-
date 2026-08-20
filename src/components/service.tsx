@@ -4,6 +4,7 @@ import {
     RiLayout4Line,
     RiSmartphoneLine,
     RiGlobalLine,
+    RiRobot2Line,
 } from "react-icons/ri";
 import { Button2 } from "./Button";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -11,28 +12,34 @@ import ScrollWrapper from "./ScrollWrapper";
 
 const services = [
     {
-        title: "Websites & Business Platforms",
+        title: "Websites & Digital Platforms",
         description:
-            "Designing and developing modern websites, landing pages, and business platforms that are fast, responsive, and built to grow with your business.",
+            "Building modern, responsive websites and digital platforms that strengthen your online presence, engage customers, and support business growth.",
         icon: <RiGlobalLine />,
     },
     {
         title: "Custom Web Applications",
         description:
-            "Building custom web applications, dashboards, booking systems, and internal tools tailored to your business workflows and operational needs.",
+            "Developing custom web applications, dashboards, booking systems, portals, and internal tools designed around your specific workflows and requirements.",
         icon: <RiLayout4Line />,
     },
     {
         title: "SaaS Product Development",
         description:
-            "Helping startups build scalable SaaS products, MVPs, customer portals, authentication systems, APIs, and cloud-ready application architectures.",
+            "Helping startups turn ideas into scalable SaaS products and MVPs with user authentication, payments, APIs, dashboards, and reliable application architecture.",
         icon: <RiCodeSSlashLine />,
     },
     {
         title: "Mobile App Development",
         description:
-            "Developing cross-platform mobile applications with modern technologies, seamless user experiences, and scalable backend integrations.",
+            "Building modern cross-platform mobile applications with intuitive user experiences, scalable backends, and the features needed to bring your product to mobile.",
         icon: <RiSmartphoneLine />,
+    },
+    {
+        title: "AI-Powered Solutions",
+        description:
+            "Building practical AI solutions that automate repetitive tasks, improve customer experiences, qualify leads, analyze information, and solve specific business challenges.",
+        icon: <RiRobot2Line />,
     },
 ];
 
@@ -58,7 +65,7 @@ export default function ServicesSection() {
                         </h2>
 
                         <p className="mt-2 xl:text-lg md:text-base text-sm merriweather-medium text-[#F2F3FF]/70 wrap-break-word">
-                            Helping startups, businesses, and founders transform ideas into modern, scalable, and user-focused digital products.
+                            Helping startups and businesses turn ideas and challenges into modern websites, web applications, mobile apps, SaaS products, and AI-powered solutions.
                         </p>
                     </div>
 
