@@ -20,17 +20,17 @@ export default function AboutSection() {
                             <h2 className="lg:text-5xl md:text-4xl text-3xl merriweather-bold leading-tight">
                                 Building
                                 <br />
-                                <span className="text-indigo-500">websites, mobile apps & SaaS products</span>
+                                <span className="text-indigo-500">digital products</span>
                                 <br />
-                                for startups and businesses.
+                                that turn ideas into reality.
                             </h2>
 
                             <p className="mt-4 lg:text-xl md:text-lg wrap-break-word text-base merriweather-medium leading-relaxed text-[#F2F3FF]/70">
-                                I'm Safdar Chougle, a Full-Stack Developer who helps startups and businesses build websites, mobile apps, and SaaS products. I work across the entire development process—from planning and architecture to frontend, backend, and deployment—to create digital products that are fast, scalable, and built for long-term growth.
+                                I'm Safdar Chougle, a Full-Stack Developer helping startups and businesses turn ideas into modern digital products — from websites and web applications to mobile apps, SaaS platforms, and AI-powered solutions. I work across the entire development process, from planning and architecture to frontend, backend, integrations, and deployment, with a focus on building reliable and scalable products.
                             </p>
 
                             <p className="mt-4 lg:text-xl md:text-lg wrap-break-word text-base merriweather-medium leading-relaxed text-[#F2F3FF]/70">
-                                I enjoy turning ideas into practical software solutions that solve real business problems. My focus is on building clean, maintainable systems with strong performance, thoughtful user experiences, and the flexibility to grow as a product evolves.
+                                I enjoy turning ideas and business challenges into practical software solutions that are easy to use and built to grow. Whether it's launching a new product, improving an existing system, or automating a manual process with AI, I focus on clean code, strong performance, thoughtful user experiences, and solutions that create real value..
                             </p>
                         </div>
 

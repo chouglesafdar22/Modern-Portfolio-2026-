@@ -73,11 +73,11 @@ export default function ContactSection() {
                         </h2>
 
                         <h2 className="mt-1.5 text-3xl md:text-4xl xl:text-5xl md:text-center text-left merriweather-bold leading-none text-indigo-500">
-                            Something Great.
+                            Something Meaningful.
                         </h2>
 
                         <p className="mt-3.5 xl:text-lg md:text-base text-sm md:text-center text-left text-[#F2F3FF]/70 mx-auto max-w-3xl wrap-break-word merriweather-medium">
-                            Open to full-time opportunities, freelance projects, collaborations, and startup ventures. Let's connect and build something impactful together.
+                            Have an idea, a business challenge, or a product you want to build? Let’s connect and turn it into a modern digital solution.
                         </p>
                     </motion.div>
 
