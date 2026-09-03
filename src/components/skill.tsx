@@ -8,6 +8,8 @@ import {
 } from "react-icons/ri";
 import {
     SiTypescript,
+    SiJavascript,
+    SiPython,
     SiExpress,
     SiMongodb,
     SiGit,
@@ -17,9 +19,28 @@ import {
 } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import ScrollWrapper from "./ScrollWrapper";
-import { TbBrandReactNative } from "react-icons/tb";
+import { TbBrandReactNative, TbApi } from "react-icons/tb";
+import { PiFileSqlDuotone } from "react-icons/pi";
 
 const skillCategories = [
+    {
+        title: "Languages",
+        skills: [
+            {
+                name: "JavaScript",
+                icon: <SiJavascript />
+            },
+            {
+                name: "TypeScript",
+                icon: <SiTypescript />,
+            },
+            {
+                name: "Python",
+                icon: <SiPython />
+            },
+        ],
+    },
+
     {
         title: "Frontend",
         skills: [
@@ -30,10 +51,6 @@ const skillCategories = [
             {
                 name: "Next.js",
                 icon: <RiNextjsLine />,
-            },
-            {
-                name: "TypeScript",
-                icon: <SiTypescript />,
             },
             {
                 name: "React Native",
@@ -62,10 +79,24 @@ const skillCategories = [
                 icon: <SiExpress />,
             },
             {
+                name: "RESTful APIs",
+                icon: <TbApi />,
+            }
+        ],
+    },
+
+    {
+        title: "DataBase",
+        skills: [
+            {
                 name: "MongoDB",
                 icon: <SiMongodb />,
             },
-        ],
+            {
+                name: "SQL",
+                icon: <PiFileSqlDuotone />,
+            },
+        ]
     },
 
     {

@@ -9,7 +9,7 @@ const projects = [
     {
         id: 1,
         title: "GitPortify",
-        description: "A complete production-ready portfolio builder that allows developers to create, customize, and publish professional portfolio websites instantly — without writing code. Built with modern full-stack technologies, GitPortify focuses on performance, usability, and real-world application.",
+        description: "A production-ready portfolio builder built for developers to create, customize, and publish professional portfolio websites without writing code. The platform includes GitHub OAuth authentication, portfolio customization, dynamic content management, and instant publishing, with a focus on performance, usability, and a smooth user experience.",
         image: "/Images/Projects/gitportify.png",
         technologies: ["Next.js", "React + TypeScript", "Tailwind CSS", "ShadCN UI", "Node.js (via Next.js API routes)", "MongoDB", "NextAuth (GitHub OAuth)", "Framer Motion", "Vercel"],
         live: "https://gitportify.vercel.app",
@@ -17,22 +17,38 @@ const projects = [
     },
     {
         id: 2,
+        title: "FragranceStore",
+        description: "A production-ready full-stack E-commerce application designed around a complete online shopping workflow. It includes authentication, product and inventory management, cart and checkout functionality, order management, invoices, returns, an admin dashboard, image uploads, and API-driven backend services.",
+        image: "/Images/Projects/fragrancestore.png",
+        technologies: ["Next.js", "MongoDB", "Node.js", "TypeScript", "ShadCN Ui", "Context API", "Axios", "MERN Stack", "Vercel", "Render", "Cloudinary"],
+        live: "https://fragrancestore.vercel.app/",
+        github: "https://github.com/chouglesafdar22/Modern-Ecommerce",
+    },
+    {
+        id: 3,
+        title: "Pharmacy Management System",
+        description: "A complete desktop application built to manage pharmacy operations including inventory, suppliers, billing, sales reports, and stock monitoring. It also includes role-based access, PDF invoice generation, and automated alerts for low stock and upcoming medicine expiry.",
+        image: "/Images/Projects/pharmacy_management.png",
+        technologies: [
+            "Python",
+            "PyQt5",
+            "SQL",
+            "Role-Based Authentication",
+            "PDF Generation",
+            "Desktop Application"
+        ],
+        live: "https://drive.google.com/file/d/12wdKbUn83CAOqJY0Ah_DxIZ68ixY621N/view?usp=drive_link",
+        github: "https://github.com/chouglesafdar22/PharmacyApp",
+    },
+    {
+        id: 4,
         title: "Portfolio Website (2026)",
-        description: "A modern, responsive, and performance-focused portfolio website built to showcase my projects, technical skills, services, and development journey as a Full-Stack MERN Developer.",
+        description: "A modern, responsive portfolio website built to showcase my work, technical skills, services, and development journey. Designed with a clean interface, responsive layouts, smooth interactions, and performance in mind to create a professional experience across devices.",
         image: "/Images/Projects/portfolio_web.png",
         technologies: ["Next.js", "Tailwind CSS", "TypeScript", "React.js", "Node.js (via Next.js API routes)", "Framer Motion"],
         live: "https://safdarchougle.vercel.app",
         github: "https://github.com/chouglesafdar22/Modern-Portfolio-2026-",
     },
-    {
-        id: 3,
-        title: "FragranceStore",
-        description: "A complete production-ready E-commerce web application built with Next.js, TypeScript, Tailwind CSS, ShadCN UI, Context API, Node.js, Express, MongoDB, Cloudinary, and Render/Vercel deployment. This project includes everything a real online store needs — authentication, admin dashboard, product management, cart, checkout, orders, invoices, returns system, and much more.",
-        image: "/Images/Projects/fragrancestore.png",
-        technologies: ["Next.js", "MongoDB", "Node.js", "TypeScript", "ShadCN Ui", "Context API", "Axios", "MERN Stack", "Vercel", "Render", "Cloudinary"],
-        live: "https://fragrancestore.vercel.app/",
-        github: "https://github.com/chouglesafdar22/Modern-Ecommerce",
-    }
 ];
 
 export default function ProjectsSection() {

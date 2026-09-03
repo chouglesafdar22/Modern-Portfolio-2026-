@@ -2,38 +2,48 @@
 import { motion } from "framer-motion";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaReact, FaGitAlt, FaFigma } from "react-icons/fa";
-import { BiLogoTypescript } from "react-icons/bi";
+import { BiLogoTypescript, BiLogoJavascript, BiLogoPython } from "react-icons/bi";
 import { DiNodejs } from "react-icons/di";
 import { SiExpress, SiMongodb, SiTailwindcss, SiFramer, SiPostman } from "react-icons/si";
 import { IoLogoGithub, IoLogoVercel } from "react-icons/io5";
-import { TbBrandReactNative } from "react-icons/tb";
+import { TbBrandReactNative, TbApi } from "react-icons/tb";
+import { PiFileSqlDuotone } from "react-icons/pi";
 
 const skills = [
+    { name: "TypeScript", icon: <BiLogoTypescript /> },
+    { name: "JavaScript", icon: <BiLogoJavascript /> },
+    { name: "Python", icon: <BiLogoPython /> },
     { name: "React.js", icon: <FaReact /> },
     { name: "Next.js", icon: <RiNextjsFill /> },
-    { name: "TypeScript", icon: <BiLogoTypescript /> },
     { name: "React Native", icon: <TbBrandReactNative /> },
+    { name: "Framer Motion", icon: <SiFramer /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
     { name: "Node.js", icon: <DiNodejs /> },
     { name: "Express.js", icon: <SiExpress /> },
+    { name: "RESTful APIs", icon: <TbApi /> },
     { name: "MongoDB", icon: <SiMongodb /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    { name: "SQL", icon: <PiFileSqlDuotone /> },
     { name: "GitHub", icon: <IoLogoGithub /> },
     { name: "Git", icon: <FaGitAlt /> },
     { name: "Figma", icon: <FaFigma /> },
-    { name: "Framer Motion", icon: <SiFramer /> },
     { name: "Vercel", icon: <IoLogoVercel /> },
+    { name: "Framer", icon: <SiFramer /> },
     { name: "Postman", icon: <SiPostman /> }
 ];
 
 const roles = [
+    { name: "Full-Stack Engineer" },
     { name: "Full-Stack Developer" },
-    { name: "Moblie App Developer" },
     { name: "MERN Stack Developer" },
-    { name: "React Native Developer" },
-    { name: "React.js Developer" },
     { name: "Next.js Developer" },
-    { name: "UI Developer" },
-    { name: "UI Desginer" }
+    { name: "React.js Developer" },
+    { name: "Web Application Developer" },
+    { name: "SaaS Developer" },
+    { name: "Backend Developer" },
+    { name: "Frontend Developer" },
+    { name: "Python Developer" },
+    { name: "Moblie App Developer" },
+    { name: "React Native Developer" }
 ];
 
 export function SkillsMarquee() {

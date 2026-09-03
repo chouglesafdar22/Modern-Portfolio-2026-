@@ -5,6 +5,7 @@ import {
     RiSmartphoneLine,
     RiGlobalLine,
     RiRobot2Line,
+    RiCodeBoxLine
 } from "react-icons/ri";
 import { Button2 } from "./Button";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -40,6 +41,12 @@ const services = [
         description:
             "Building practical AI solutions that automate repetitive tasks, improve customer experiences, qualify leads, analyze information, and solve specific business challenges.",
         icon: <RiRobot2Line />,
+    },
+    {
+        title: "Custom Software Solutions",
+        description:
+            "Building tailored software for specific business needs and workflows, from management systems and internal tools to dashboards and operational applications.",
+        icon: <RiCodeBoxLine />,
     },
 ];
 

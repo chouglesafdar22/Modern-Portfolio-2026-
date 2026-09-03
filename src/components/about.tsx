@@ -52,7 +52,7 @@ export default function AboutSection() {
 
                                 <div className="mt-2.5 space-y-2.5">
                                     <SocailCardLink
-                                        href={"https://drive.google.com/file/d/1WcDqmtNFQTXEu93_7Z8fRZWV5hxhrWJ6/view?usp=drive_link"}
+                                        href={"https://drive.google.com/file/d/1dMvXkDTgqJnx62pv4RquUe_PVMiYd_N_/view?usp=drive_link"}
                                         name={"Resume"}
                                         para={"Projects, skills, and technical expertise."}
                                     />
