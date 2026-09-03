@@ -28,7 +28,7 @@ const projects = [
         id: 3,
         title: "Pharmacy Management System",
         description: "A complete desktop application built to manage pharmacy operations including inventory, suppliers, billing, sales reports, and stock monitoring. It also includes role-based access, PDF invoice generation, and automated alerts for low stock and upcoming medicine expiry.",
-        image: "/Images/Projects/pharamacy_m_s.png",
+        image: "/Images/Projects/pharamacy_management_system.png",
         technologies: [
             "Python",
             "PyQt5",
