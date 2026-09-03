@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://safdarchougle.vercel.app"),
-  title: "Safdar Chougle | Full-Stack Developer",
+  title: "Safdar Chougle | Full-Stack Engineer",
   description: "Explore the portfolio of Safdar Chougle, a Full-Stack Engineer helping startups and businesses build modern digital products, including websites, web applications, mobile apps, SaaS platforms, and AI-powered solutions.",
   keywords: [
     "Safdar Chougle",
