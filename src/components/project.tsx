@@ -71,7 +71,7 @@ export default function ProjectsSection() {
                         </h2>
 
                         <p className="mt-2 xl:text-lg md:text-base text-sm text-[#F2F3FF]/70 wrap-break-word merriweather-medium">
-                            A collection of projects showcasing my full-stack development skills.
+                            A collection of projects showcasing my full-stack engineer skills.
                         </p>
                     </div>
                     {/* Sticky Cards */}
