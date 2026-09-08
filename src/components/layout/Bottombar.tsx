@@ -24,14 +24,14 @@ const navItems = [
         icon: <FaRegUserCircle />,
     },
     {
-        name: "Projects",
-        href: "#projects",
-        icon: <LuFolderKanban />,
-    },
-    {
         name: "Experience",
         href: "#experience",
         icon: <LuBriefcaseBusiness />,
+    },
+    {
+        name: "Projects",
+        href: "#projects",
+        icon: <LuFolderKanban />,
     },
     {
         name: "Skills",
