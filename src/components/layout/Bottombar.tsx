@@ -95,14 +95,10 @@ export default function BottomBar() {
        Hide on Contact + Footer
     --------------------------------- */
     useEffect(() => {
-        const contactSection =
-            document.getElementById("contact-me");
-
         const footerSection =
             document.getElementById("footer");
 
         const sections = [
-            contactSection,
             footerSection,
         ].filter(Boolean) as HTMLElement[];
 
