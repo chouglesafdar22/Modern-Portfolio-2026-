@@ -11,6 +11,7 @@ import SkillsSection from "@/components/skill";
 import ServicesSection from "@/components/service";
 import ContactSection from "@/components/contact";
 import Footer from "@/components/layout/Footer";
+import ExperienceSection from "@/components/experience";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <RoleMarque />
         <AboutSection />
         <YoutubeShorts />
+        <ExperienceSection/>
         <ProjectsSection />
         <SkillsSection />
         <SkillsMarquee />

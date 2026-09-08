@@ -8,15 +8,6 @@ import ScrollWrapper from "./ScrollWrapper";
 const projects = [
     {
         id: 1,
-        title: "GitPortify",
-        description: "A production-ready portfolio builder built for developers to create, customize, and publish professional portfolio websites without writing code. The platform includes GitHub OAuth authentication, portfolio customization, dynamic content management, and instant publishing, with a focus on performance, usability, and a smooth user experience.",
-        image: "/Images/Projects/gitportify.png",
-        technologies: ["Next.js", "React + TypeScript", "Tailwind CSS", "ShadCN UI", "Node.js (via Next.js API routes)", "MongoDB", "NextAuth (GitHub OAuth)", "Framer Motion", "Vercel"],
-        live: "https://gitportify.vercel.app",
-        github: "https://github.com/chouglesafdar22/GitPortify",
-    },
-    {
-        id: 2,
         title: "FragranceStore",
         description: "A production-ready full-stack E-commerce application designed around a complete online shopping workflow. It includes authentication, product and inventory management, cart and checkout functionality, order management, invoices, returns, an admin dashboard, image uploads, and API-driven backend services.",
         image: "/Images/Projects/fragrancestore.png",
@@ -25,7 +16,7 @@ const projects = [
         github: "https://github.com/chouglesafdar22/Modern-Ecommerce",
     },
     {
-        id: 3,
+        id: 2,
         title: "Pharmacy Management System",
         description: "A complete desktop application built to manage pharmacy operations including inventory, suppliers, billing, sales reports, and stock monitoring. It also includes role-based access, PDF invoice generation, and automated alerts for low stock and upcoming medicine expiry.",
         image: "/Images/Projects/pharmacy_management_system.png",
@@ -41,7 +32,7 @@ const projects = [
         github: "https://github.com/chouglesafdar22/PharmacyApp",
     },
     {
-        id: 4,
+        id: 3,
         title: "Portfolio Website (2026)",
         description: "A modern, responsive portfolio website built to showcase my work, technical skills, services, and development journey. Designed with a clean interface, responsive layouts, smooth interactions, and performance in mind to create a professional experience across devices.",
         image: "/Images/Projects/portfolio_web.png",
