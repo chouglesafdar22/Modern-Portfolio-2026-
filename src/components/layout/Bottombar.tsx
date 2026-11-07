@@ -8,6 +8,7 @@ import {
     LuFileCode2,
     LuBriefcaseBusiness,
     LuBadgeCheck,
+    LuFilePen
 } from "react-icons/lu";
 import { FaRegUserCircle } from "react-icons/fa";
 import { RiContactsLine } from "react-icons/ri";
@@ -32,6 +33,11 @@ const navItems = [
         name: "Projects",
         href: "#projects",
         icon: <LuFolderKanban />,
+    },
+     {
+        name: "Blogs",
+        href: "#blogs",
+        icon: <LuFilePen />,
     },
     {
         name: "Skills",
