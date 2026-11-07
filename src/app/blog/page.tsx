@@ -3,12 +3,14 @@ import BlogCard from "@/components/blog/BlogCard";
 import { connectToDatabase } from "@/lib/mongodb";
 import Blog from "@/app/models/Blog";
 
+export const dynamic = "force-dynamic";
+
 export default async function BlogPage() {
     await connectToDatabase();
 
     const blogs = await Blog.find({ status: "published" })
-    .sort({ publishedAt: -1 })
-    .lean<import("@/app/models/Blog").IBlog[]>();
+        .sort({ publishedAt: -1 })
+        .lean<import("@/app/models/Blog").IBlog[]>();
 
     return (
         <main className="min-h-screen bg-[#121212] px-5 py-20 text-[#F2F3FF]">

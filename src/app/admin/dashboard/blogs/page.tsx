@@ -81,7 +81,7 @@ export default async function AdminBlogPage() {
 
                                 <div className="flex shrink-0 items-center gap-2">
                                     <Link
-                                        href={`/blogs/${blog.slug}`}
+                                        href={`/blog/${blog.slug}`}
                                         target="_blank"
                                         className="rounded-lg border merriweather-regular border-white/10 px-3 py-2 text-xs text-[#F2F3FF]/60 transition hover:bg-white/5 hover:text-[#F2F3FF]"
                                     >
