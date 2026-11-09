@@ -39,7 +39,7 @@ export default function ExperienceSection() {
                                     title: "Full-Stack Engineer",
                                     employmentType: "Self-employed",
                                     startDate: "Jan 2026",
-                                    endDate: "Oct 2026",
+                                    endDate: "Nov 2026",
                                     location: "India · Remote",
                                     description:
                                         "Building and shipping GitPortify, a SaaS platform that helps developers generate modern portfolio websites from their GitHub profiles in minutes, with unique public URLs.",
