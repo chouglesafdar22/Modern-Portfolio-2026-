@@ -24,9 +24,9 @@ export default function Home() {
         <RoleMarque />
         <AboutSection />
         <YoutubeShorts />
-        <ExperienceSection/>
+        <ExperienceSection />
         <ProjectsSection />
-        <BlogSection/>
+        <BlogSection />
         <SkillsSection />
         <SkillsMarquee />
         <ServicesSection />

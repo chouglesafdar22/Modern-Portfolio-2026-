@@ -8,6 +8,15 @@ import ScrollWrapper from "./ScrollWrapper";
 const projects = [
     {
         id: 1,
+        title: "GitPortify",
+        description: "GitPortify is a developer portfolio creation and publishing SaaS platform designed to help developers build and manage their professional online presence. The platform provides customizable portfolio templates with live previews, GitHub and GitLab profile and project integrations, real-time editing, and public portfolio publishing through shareable links. Its SaaS infrastructure includes Clerk-powered user authentication, a dedicated dashboard for portfolio management, an updated database architecture, and transactional email functionality through a centralized email service. The platform has also evolved through production-focused improvements, including authentication reliability fixes, refined branded email templates, and automated notifications for portfolio publication and updates.",
+        image: "/Images/Projects/gitportify.png",
+        technologies: ["Next.js", "MongoDB", "TypeScript", "Clerk", "Node.js", "GitLab API", "GitHub API", "Vercel", "Tailwind CSS",],
+        live: "https://gitportify.vercel.app/",
+        github: "https://github.com/chouglesafdar22/GitPortify",
+    },
+    {
+        id: 2,
         title: "FragranceStore",
         description: "A production-ready full-stack E-commerce application designed around a complete online shopping workflow. It includes authentication, product and inventory management, cart and checkout functionality, order management, invoices, returns, an admin dashboard, image uploads, and API-driven backend services.",
         image: "/Images/Projects/fragrancestore.png",
@@ -16,7 +25,7 @@ const projects = [
         github: "https://github.com/chouglesafdar22/Modern-Ecommerce",
     },
     {
-        id: 2,
+        id: 3,
         title: "Pharmacy Management System",
         description: "A complete desktop application built to manage pharmacy operations including inventory, suppliers, billing, sales reports, and stock monitoring. It also includes role-based access, PDF invoice generation, and automated alerts for low stock and upcoming medicine expiry.",
         image: "/Images/Projects/pharmacy_management_system.png",
@@ -32,7 +41,7 @@ const projects = [
         github: "https://github.com/chouglesafdar22/PharmacyApp",
     },
     {
-        id: 3,
+        id: 4,
         title: "Portfolio Website (2026)",
         description: "A modern, responsive portfolio website built to showcase my work, technical skills, services, and development journey. Designed with a clean interface, responsive layouts, smooth interactions, and performance in mind to create a professional experience across devices.",
         image: "/Images/Projects/portfolio_web.png",
