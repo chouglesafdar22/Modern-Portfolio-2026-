@@ -12,7 +12,7 @@ import ScrollWrapper from "./ScrollWrapper";
 const socials = [
     {
         name: "Resume",
-        href: "https://drive.google.com/file/d/1dMvXkDTgqJnx62pv4RquUe_PVMiYd_N_/view?usp=drive_link",
+        href: "https://drive.google.com/file/d/1DERjZ-uJEL0iboLdAZzanmQfo950ryBw/view?usp=drive_link",
         icon: <PiReadCvLogo />,
     },
     {
